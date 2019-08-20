@@ -1,33 +1,293 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
 .App {
   text-align: center;
+ 
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.InfoGroup{
+  Padding: 0 0 0 0;
+  background-color: #f8f9fa;
 }
+.infoGroup.testimonials{
+  background: rgb(248, 249, 250, 1);
+}
+.InfoGroup h2{
+  margin:0 0 45px;
+ 
+}
+ 
+.InfoGroup .container{
+  
+  display:  inline-flex;
+  justify-content: space-between;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .aboutcentre{
+    text-align: center;
+    font-size: 2rem;
+  }
+.Info{
+  max-width: 320px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  margin:0 auto;
+}
+.Info i {
+  font-size:45px;
+  color: #007bff
+}
+
+
+
+.col{
+  background-color: #f0c24b;
+}
+
+.img{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom:auto;
+}
+
+.gif{
+  display: none;
+}
+
+
+.form {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.form > .container {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.form > .container input {
+  margin: 0 0 16px;
+ 
+}
+
+.Slider{
+  width: 100%;
+  height: auto;
+ 
+}
+
+#video-container{
+  height:50vh;
+  padding:0px;
+
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.navigation{
+  padding-top:30px;
+  padding-bottom:30px;
+  position:absolute;
+  top:0;
+  width:100%;
+  height:auto;
+  z-index:1;
+  
+}
+
+.navbar-right{
+  float:right;
+  padding-right:10%;
+}
+
+.navbar-right :Link{
+  text-decoration:none;
+  
+  padding:5px;
+  color: #fff;
+  font-family:Arial;
+  font-weight:900;
+}
+
+.navbar-logo{
+  padding-left:10%;
+  float:left;
+}
+
+.link-text .h2{
+  text-decoration: none;
   color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.h2{
+  color:white;
+}
+  
+.Jumbotron-video{
+  margin-top:0;
+  margin-bottom:0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.AvatarGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Avatar img {
+  border-radius: 100%;
+  box-shadow: #000 0px 0px 10px;
+  width: 192px;
+  height: 192px;
+}
+
+.Avatar p {
+  max-width: 192px;
+}
+
+
+.Avatar p.title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 16px 0 8px;
+}
+
+.Jumbotron-down{
+  margin-bottom:10;
+  padding: 120px 0 120px;
+  width: 100%;
+  height: 100%;
+}
+
+.jtext{
+  
+  font-size: 7rem;
+}
+.mobnav{
+  display:none;
+}
+.mobileview{
+  display:none;
+}
+@media only screen and (max-width:800px) {
+
+  .mobileview{
+    display:block;
   }
-  to {
-    transform: rotate(360deg);
+
+  
+    h2, .h2 {
+    font-size: 1.5rem;
+}
+  
+.navigation{
+
+  display:none;
+  
   }
+.navbar > .navigation{
+  display:none;
+}
+  .mobnav{   
+    display:block;
+    width:100%;
+    height:50px;
+    margin-bottom:0px;
+  }
+  .mobnav2{
+    padding-top:20px;
+    float:right;
+  
+    padding-left:150px;
+ 
+   }
+   
+   .navbar {
+    width: 100%;
+  margin:0;}
+   
+  .gif2{
+    display:none;
+  }
+    .gif{
+      display:block;
+      width: 100%;
+      height: auto;
+    }
+  
+  
+.mobContainer{
+   padding-top:-50px;
+   margin-top:-35px;
+   margin-left:-20px;
+   margin-right:45px;
+   padding-right:20px;
+   width:100%;
+ }
+
+ .mobnav img{
+   width:120px;
+   height:120px;
+ }
+  .logo{
+    margin-top:-10px; 
+    float:left;
+  }
+.nav-link{
+  float:right;
+  
+}
+.InfoGroup .container {
+
+  display: inline;
+  padding:0px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.InfoGroup{
+
+  margin: auto;
+ 
+  padding: 10px;
+  text-align: center;
+
+}
+
+.Avatar p {
+  max-width: 192px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.Avatar p.title {
+  max-width: 192px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.Avatar{
+padding-bottom: 10px;
+}
+
 }

@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import React , {useState,createContext} from 'react';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import Home from './components/home';
+import About from './components/About';
 import './App.css';
+export const AppContext = createContext();//Signup
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+const App =() => {
+
+    const [state, setState] = useState({signUpForm:false, label:'What Ever'})
+
+    return (
+        <AppContext.Provider value={[state, setState]} >   
+        <BrowserRouter>
+        <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        
+        
+        </Switch>
+        </BrowserRouter>
+        </AppContext.Provider>
+        
+    )
 }
 
 export default App;
