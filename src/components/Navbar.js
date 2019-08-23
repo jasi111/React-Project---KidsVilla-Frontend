@@ -11,7 +11,7 @@ const NavBar = () => {
     
     <nav className=" navbar sticky-top">
       <div className="navigation topnav " id="Nav-responsive">
-           <Link className="navbar-logo" to="/"><img src="images/logo.png"/></Link>
+           <Link to="/"><img className="logo" src="images/logo.png"/></Link>
 
            <div className="navbar-right">
            <Link  to="/about"><h2>What We Do</h2></Link>
