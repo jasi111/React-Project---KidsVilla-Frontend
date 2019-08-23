@@ -1,6 +1,5 @@
-import React,{ useState,useContext} from 'react';
+import React,{useContext} from 'react';
 import Navbar from './Navbar';
-import MobNav from './mobnav';
 import { AppContext } from '../App';
 import SignUpWindow from './SignUpWindow';
 import LoginWindow from './LoginWindow';
@@ -8,7 +7,7 @@ import Footer from './footer';
 
 const About =()  => {
 
-    const [state,setState] = useContext(AppContext);
+    const [state] = useContext(AppContext);
     return(
        
          <div>
