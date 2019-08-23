@@ -5,9 +5,6 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Loadable from 'react-loadable';
 
-
-
-
 const Home = Loadable({
     loader: () =>
      import(/*webpackChunkName: "Home"*/"./components/home"),
