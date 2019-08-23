@@ -10,7 +10,7 @@ const Video = () => {
         
  <video className="main-video" loop="true" autoplay="true" muted="true"
         preload="true">
-            <source src="videos/kidsvillabg.mp4" type="video/mp4"/>
+            <source src="videos/kidsvilla.mp4" type="video/mp4"/>
             </video>
     </div>
     
