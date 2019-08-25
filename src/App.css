@@ -178,6 +178,8 @@ video {
   padding: 120px 0 120px;
   width: 100%;
   height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .jtext{
@@ -190,6 +192,8 @@ video {
 .mobileview{
   display:none;
 }
+
+
 @media only screen and (max-width:800px) {
 
   .mobileview{
