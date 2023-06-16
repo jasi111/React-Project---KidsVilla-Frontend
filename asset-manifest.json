@@ -1,0 +1,21 @@
+{
+  "files": {
+    "static/js/0.521ef481.chunk.js": "/kidsvilla-react-frontend/static/js/0.521ef481.chunk.js",
+    "static/js/0.521ef481.chunk.js.map": "/kidsvilla-react-frontend/static/js/0.521ef481.chunk.js.map",
+    "About.js": "/kidsvilla-react-frontend/static/js/About.b6105def.chunk.js",
+    "About.js.map": "/kidsvilla-react-frontend/static/js/About.b6105def.chunk.js.map",
+    "Home.js": "/kidsvilla-react-frontend/static/js/Home.add1b7c7.chunk.js",
+    "Home.js.map": "/kidsvilla-react-frontend/static/js/Home.add1b7c7.chunk.js.map",
+    "main.css": "/kidsvilla-react-frontend/static/css/main.e15a61ed.chunk.css",
+    "main.js": "/kidsvilla-react-frontend/static/js/main.a44b43a2.chunk.js",
+    "main.js.map": "/kidsvilla-react-frontend/static/js/main.a44b43a2.chunk.js.map",
+    "runtime~main.js": "/kidsvilla-react-frontend/static/js/runtime~main.b6379f1e.js",
+    "runtime~main.js.map": "/kidsvilla-react-frontend/static/js/runtime~main.b6379f1e.js.map",
+    "static/js/5.e96cf458.chunk.js": "/kidsvilla-react-frontend/static/js/5.e96cf458.chunk.js",
+    "static/js/5.e96cf458.chunk.js.map": "/kidsvilla-react-frontend/static/js/5.e96cf458.chunk.js.map",
+    "index.html": "/kidsvilla-react-frontend/index.html",
+    "precache-manifest.2659ee7f40110b7e70974cb01d0d1c86.js": "/kidsvilla-react-frontend/precache-manifest.2659ee7f40110b7e70974cb01d0d1c86.js",
+    "service-worker.js": "/kidsvilla-react-frontend/service-worker.js",
+    "static/css/main.e15a61ed.chunk.css.map": "/kidsvilla-react-frontend/static/css/main.e15a61ed.chunk.css.map"
+  }
+}
